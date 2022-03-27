@@ -22,3 +22,23 @@
 - Scripts
   ### Executar docker-compose
     ```docker-compose -f docker-compose.yml up```
+ 
+- Observação: 
+  - Pasta init-scripts é pasta que contem os scripts que inicia a configuração das features:
+    - ex:  
+     ``` 
+         init-script
+          - 01-create-profile.sh
+          - 02-scripts-dynamodb.sh
+          - 03-scripts-feature-xpto.sh
+     ```  
+  - Pasta configs é pasta que onde contem os scripts excutados no criação das features:
+    - ex:
+     ``` 
+         configs
+          - dynamodb
+            - resource
+            - 1-create-resources.sh
+          - s3
+            - 1-create-resources.sh
+     ```
