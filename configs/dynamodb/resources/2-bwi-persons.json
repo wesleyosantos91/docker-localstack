@@ -1,0 +1,46 @@
+{
+    "tb_person": [
+      {
+        "PutRequest": {
+          "Item": {
+            "id": {
+              "S": "PERSON#053fdc67-b2a5-45b4-96a7-d7f23575c805"
+            },
+            "cpf": {
+              "S": "70582698820"
+            },
+            "email": {
+              "S": "isabela.arruda@geradornv.com.br"
+            },
+            "name": {
+              "S": "Isabela Mata de Arruda"
+            },
+            "dateOfBirth": {
+              "S": "1981-03-01"
+            }
+          }
+        }
+      },
+      {
+        "PutRequest": {
+          "Item": {
+            "id": {
+              "S": "PERSON#98fe7c91-f965-426c-8182-a65dc88820a6"
+            },
+            "cpf": {
+              "S": "61186833289"
+            },
+            "email": {
+              "S": "anderson.soriano@geradornv.com.br"
+            },
+            "name": {
+              "S": "Anderson Moura Soriano"
+            },
+            "dateOfBirth": {
+              "S": "1978-12-29"
+            }
+          }
+        }
+      }
+    ]
+  }
