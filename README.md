@@ -5,7 +5,7 @@
 
 <div align="center">
 
-# Localstack - steup ambiente 
+# Localstack - Steup ambiente 
 ![](https://img.shields.io/badge/Autor-Wesley%20Oliveira%20Santos-brightgreen)
 ![](https://img.shields.io/badge/Container-docker-brightgreen)
 </div>
