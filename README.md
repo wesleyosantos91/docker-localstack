@@ -30,7 +30,8 @@
          init-script
           - 01-create-profile.sh
           - 02-scripts-dynamodb.sh
-          - 03-scripts-feature-xpto.sh
+          - 03-scripts-sqs.sh
+          - 04-scripts-feature-xpto.sh
      ```  
   - Pasta configs é pasta que onde contem os scripts excutados no criação das features:
     - ex:
@@ -39,6 +40,9 @@
           - dynamodb
             - resource
             - 1-create-resources.sh
-          - s3
+          - sqs
+            - 1-create-resources.sh
+          - feature-xpt
+            - resource (se necessario para complementar os scripts de criação do recurso)
             - 1-create-resources.sh
      ```
